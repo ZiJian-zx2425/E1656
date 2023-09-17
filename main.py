@@ -1,6 +1,0 @@
-
-
-
-
-def hell():
-    print('hello')
