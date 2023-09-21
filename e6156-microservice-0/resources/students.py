@@ -12,6 +12,7 @@ class StudentsResource:
 
     def __init__(self):
         self.students = None
+        self.students_file = student_file
 
         with open(self.students_file, "r") as j_file:
             self.students = json.load(j_file)
